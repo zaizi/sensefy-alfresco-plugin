@@ -1,0 +1,7 @@
+/.settings
+/solr_home
+/target
+.classpath
+.project
+.DS_Store
+solr.log*

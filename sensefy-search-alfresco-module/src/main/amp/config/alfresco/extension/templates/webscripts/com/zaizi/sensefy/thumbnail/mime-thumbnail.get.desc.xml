@@ -1,0 +1,11 @@
+<webscript kind="org.alfresco.repository.content.stream">
+  <shortname>Mime thumbnails</shortname>
+  <description>
+  Get the placeholder thumbnail corresponding to the given mimetype
+  </description>
+  <url>/api/thumbnails/placeholder?mimetype={mimetype?}</url>
+  <transaction allow="readonly">required</transaction>
+  <format default="">argument</format>
+  <authentication>guest</authentication>
+  <transaction>required</transaction>
+</webscript>

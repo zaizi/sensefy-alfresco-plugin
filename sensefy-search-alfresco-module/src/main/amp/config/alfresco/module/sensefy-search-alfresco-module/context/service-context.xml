@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org.zaizi.alfresco.alfresco/dtd/spring-beans.dtd'>
+
+<beans>
+	<bean id="sensefyService" class="com.zaizi.sensefy.service.impl.SensefyServiceImpl">
+		<property name="sensefyHost">
+			<value>${sensefy.host.url}</value>
+		</property>
+		<property name="sensefyLoginEndpoint">
+			<value>${sensefy.login.password.url}</value>
+		</property>
+		<property name="sensefyLoginAlfEndpoint">
+			<value>${sensefy.login.alfresco.url}</value>
+		</property>
+		<property name="useAlfticket">
+			<value>${sensefy.login.useTicket}</value>
+		</property>
+		<property name="sensefySearchEndpoint">
+			<value>${sensefy.search.url}</value>
+		</property>
+		<property name="fields">
+			<value>${sensefy.query.fields}</value>
+		</property>
+		<property name="authenticationService">
+			<ref bean="AuthenticationService" />
+		</property>
+	</bean>
+</beans>

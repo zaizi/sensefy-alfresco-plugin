@@ -1,0 +1,15 @@
+<extension>
+	<modules>
+		<module>
+			<id>Sensefy search tab</id>
+			<auto-deploy>true</auto-deploy>
+			<version>1.0</version>
+			<customizations>
+				<customization>
+					<targetPackageRoot>org.alfresco.components.search</targetPackageRoot>
+					<sourcePackageRoot>com.zaizi.components.search</sourcePackageRoot>
+				</customization>
+			</customizations>
+		</module>
+	</modules>
+</extension>

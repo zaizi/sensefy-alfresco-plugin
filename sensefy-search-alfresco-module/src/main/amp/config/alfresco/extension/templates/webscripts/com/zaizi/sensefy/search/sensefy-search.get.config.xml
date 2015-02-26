@@ -1,0 +1,19 @@
+<config>
+	<fields>
+		<docUrl>url</docUrl>
+		<path>container_url</path>
+		<thumbnailUrl>thumbnail_url</thumbnailUrl>
+		<mimetype>mimetype</mimetype>
+		<name>name</name>
+		<title>title</title>
+		<description>description</description>
+		<modifiedOn>ds_last_modified</modifiedOn>
+		<modifiedBy>ds_last_modifier</modifiedBy>
+		<size>size</size>
+		<source>data_source</source>
+		<site>
+			<shortName>site_name</shortName>
+			<title>site_title</title>
+		</site>
+	</fields>
+</config>

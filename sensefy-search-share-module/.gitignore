@@ -1,0 +1,7 @@
+/target
+/.settings
+/.sonar
+.classpath
+.project
+.DS_Store
+share.log*

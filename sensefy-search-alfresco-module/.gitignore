@@ -1,0 +1,9 @@
+/target
+/.settings
+/alf_data_dev
+/.sonar
+/doc
+.classpath
+.project
+.DS_Store
+alfresco.log*

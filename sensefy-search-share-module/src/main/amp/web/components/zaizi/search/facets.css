@@ -1,0 +1,92 @@
+/* Layout */
+.search .facets {
+	width: 15%;
+	float: left;
+	margin: 0 1%;
+	background: white;
+}
+
+.search .results {
+	float: left;
+	max-width: 82%;
+	margin-right: 1% !important;
+}
+
+.search .search-bar {
+	clear: both;
+}
+
+.search .facets>div {
+	border: 1px solid #d3d3d3;
+	border-bottom: 0;
+	display: block;
+	padding-top: 10px;
+}
+
+.search .facets>div:first-child {
+	border-radius: 5px 5px 0 0;
+}
+
+.search .facets>div:last-child {
+	border-radius: 0 0 5px 5px;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+.search .facets h3 {
+	font-family: Open Sans Bold, Arial, sans-serif;
+	color: #333333;
+	font-size: 14px;
+	font-weight: normal;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+	padding-left: 1em;
+}
+
+.search .facets li {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 3em;
+	padding-right: 1px;
+}
+
+.search .facets li span {
+	cursor: pointer;
+}
+
+/* Selected facets */
+.search .facets-selected {
+	float: left;
+	padding: 0.5em 0 0.6em 1em;
+}
+
+.search .facets-selected>div {
+	border-radius: 5px;
+	border-style: solid;
+	border-width: thin;
+	float: left !important;
+	margin-right: 2px;
+	background-color: white;
+	border-color: gray;
+	padding: 1px;
+}
+
+.search .facets-selected span {
+	padding: 2px;
+	cursor: pointer;
+}
+
+.exclude {
+	float: right;
+	font-size: medium;
+}
+
+.spellcheckContainer .spellcheck {
+    margin-left: 1.5em;
+    font-weight: bold;
+}
+
+.spellcheckContainer .word {
+    color: #2E64FE;
+    text-decoration: underline;
+    cursor: pointer;
+}

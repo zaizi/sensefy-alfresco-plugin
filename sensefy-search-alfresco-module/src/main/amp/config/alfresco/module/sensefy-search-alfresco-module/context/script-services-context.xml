@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+
+<beans>
+	<bean id="sensefySearchScript" parent="baseJavaScriptExtension" class="com.zaizi.sensefy.jscript.SensefySearch">
+		<property name="extensionName">
+			<value>sensefySearch</value>
+		</property>
+		<property name="searchSubsystemSwitchableApplicationContextFactory">
+			<ref bean="Search" />
+		</property>
+		<property name="serviceRegistry">
+			<ref bean="ServiceRegistry" />
+		</property>
+		<property name="repositoryHelper">
+			<ref bean="repositoryHelper" />
+		</property>
+		<property name="storeUrl">
+			<value>${spaces.store}</value>
+		</property>
+		<property name="sensefyService">
+			<ref bean="sensefyService" />
+		</property>
+	</bean>
+</beans>

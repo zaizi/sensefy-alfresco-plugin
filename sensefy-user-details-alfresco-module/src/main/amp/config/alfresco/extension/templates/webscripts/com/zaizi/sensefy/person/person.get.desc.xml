@@ -1,0 +1,9 @@
+<webscript>
+   <shortname>Current user details</shortname>
+   <description>Get the username of the currently logged in user</description>
+   <url>/api/person</url>
+   <format default="json">argument</format>
+   <authentication>user</authentication>
+   <transaction allow="readonly">required</transaction>
+   <lifecycle>public_api</lifecycle>
+</webscript>
