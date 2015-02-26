@@ -126,40 +126,5 @@
 
 			</plugins>
 		</pluginManagement>
-		<plugins>
-			<!-- Override cobertura plugin to bypass unit tests -->
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>cobertura-maven-plugin</artifactId>
-				<version>2.6</version>
-				<configuration>
-					<check>
-						<haltOnFailure>${coberturaHaltOnerror}</haltOnFailure>
-						<totalLineRate>${cobertura.totalLineRate}</totalLineRate>
-					</check>
-				</configuration>
-				<executions>
-					<execution>
-						<id>cobertura-junit-test</id>
-						<!-- Disable by setting the phase to none -->
-						<phase>none</phase>
-						<goals>
-							<goal>clean</goal>
-							<goal>cobertura</goal>
-							<goal>check</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>cobertura-integration-test</id>
-						<phase>verify</phase>
-						<goals>
-							<goal>clean</goal>
-							<goal>cobertura</goal>
-							<goal>check</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
 	</build>
 </project>
