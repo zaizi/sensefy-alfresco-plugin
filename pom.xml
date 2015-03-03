@@ -47,7 +47,7 @@
 		<alfresco.client.war.version>4.2.f</alfresco.client.war.version>
 		<!-- This controls which properties will be picked in multi-enviromment 
 			build -->
-		<env>local</env>
+		<env>dev</env>
 		<junit.test.groups>org.zaizi.test.groups.JUnitTest</junit.test.groups>
 		<integration.test.groups>org.zaizi.test.groups.IntegrationTest</integration.test.groups>
 		<skip.junit.test>false</skip.junit.test>
