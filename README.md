@@ -26,3 +26,8 @@ Set the following property in alfresco-global.properties
 sensefy.host.url=localhost:8081/SensefySearchAPI
 
 Where this is the URL to Sensefy API, normally deployed in host:8081/SensefySearchAPI
+
+## Copyright
+© Zaizi Limited. Code for this plugin is licensed under the Apache license.
+
+Any trademarks and logos included in these plugins are property of their respective owners and should not be reused, redistributed, modified, repurposed, or otherwise altered or used outside of this plugin.
